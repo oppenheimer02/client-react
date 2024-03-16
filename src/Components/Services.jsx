@@ -7,7 +7,7 @@ import Frame2 from '../images/feature_1.png';
 function Services() {
   return (
     <div id='features'>
-
+      <h1 className='featureh1'>Services</h1>
     <div className="a-container">
       
       <ServiceBox   image= {Pizza} title='Peaceful Environment' />

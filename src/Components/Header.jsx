@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 
 function Header() {
   const [text, setText] = useState('');
-  const fullText = "The place where you Find aalu";
+  const fullText = "The place where you find solution of your problems.";
   const typingSpeed = 150; // Adjust typing speed (in milliseconds)
 
   useEffect(() => {
@@ -26,7 +26,7 @@ function Header() {
         <h1>
           <span> {text} </span>
         </h1>
-        <p className='details'>the symphony head leg foot</p>
+        <p className='details'>Welcome to The Replica Universe..</p>
         <a href='/' className='cv-btn'>
           Show more
         </a>
