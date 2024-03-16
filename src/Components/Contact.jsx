@@ -33,7 +33,9 @@ export default function Contact() {
       <div className='h1'>
 <h1> Contact Us </h1>
       </div>
-      <h3>Book Your Appointment</h3>
+      <div>
+      <h3 >Book Your Appointment</h3>
+      </div>
       
       <div className="contact-input">
 
