@@ -514,21 +514,26 @@ font-size: 2rem;
 #presentation{
       display: none;
   }
+  /*
   .nav{
     width: 970px;
   }
+  */
 }
 @media(max-width:600px){
+
+  nav.nav {
+    width: 600px;
+  }
   #main {
     width: 600px;
   }
+  
 .name{
   width:60%;
   }
 
-.nav{
-  width: 600px;
-}
+
 
 .cv-btn{
   margin-left: 125px;
@@ -678,13 +683,15 @@ padding: 10px;
           display:block;
       }}
       @media(max-width:400px){
+
+        nav.nav {
+          width: 400px;
+        }
           .s-box{
               width: 100%;
               height:400px;
           }
-.nav {
-  width: 400px;
-}
+
 
           #main
         {
@@ -798,9 +805,8 @@ padding: 10px;
        font-family: sans-serif;
       }
 
-      @media (max-width: 828px) {
-        /* Your styles for iPhone 11 */
-      /* Add your changes to the nav for iPhone 11 here */
+      @media (max-width: 828px) and (device-aspect-ratio: 1792/828) {
+       
         .nav {
           width: 828px;
           
@@ -813,4 +819,24 @@ padding: 10px;
         .cv-btn {
           margin-left: 200px;
         }
+      } 
+     
+    /*
+
+    @media (max-width: 425px) {
+      .nav {
+        width: 425px;
       }
+    }
+
+    @media (max-width: 320px) {
+      .nav {
+        width: 320px;
+      }
+    }
+
+    @media (max-width: 375px) {
+      .nav {
+        width: 375px;
+      }
+    }*/
